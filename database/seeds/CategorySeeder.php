@@ -2,9 +2,9 @@
 
 use Illuminate\Database\Seeder;
 
-use App\Post;
+use App\Category;
 
-class PostSeeder extends Seeder
+class CategorySeeder extends Seeder
 {
     /**
      * Run the database seeds.
@@ -13,6 +13,6 @@ class PostSeeder extends Seeder
      */
     public function run()
     {
-        factory(Post::class, 15) ->create();
+        factory(Category::class,50) ->create();
     }
 }
